@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+body {
+    margin: 50px 0;
+}
+
+section {
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto;
+    border: 2px solid gray;
+    overflow: hidden;
+}
+
+#counter {
+    font-family: inherit;
+    border-bottom: 1px solid rgb(156, 154, 154);
+    display: flex;
+    justify-content: space-around;
+    background-color: honeydew;
+    margin: 0 22px;
+    width: 90%;
+}
+
+.border {
+    background-color: honeydew;
+}
+
+#counter p {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(94, 92, 92);
+}
+
+#counter span {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    padding: 22px;
+    font-size: 17px;
+    resize: none;
+    background-color: honeydew;
+    width: 97%;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0 -30px 0;
+    font-family: 'Balsamiq Sans', serif;
+}
+
+@media screen and (max-width:450px) {
+    section {
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        margin: 50px auto;
+        border: 2px solid gray;
+        background-color: honeydew;
+    }
+}
